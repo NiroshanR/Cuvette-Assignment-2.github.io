@@ -12,10 +12,8 @@ body{
     flex-wrap: wrap;
     background-image: url(./images/chat-icon.jpg);
     background-repeat: no-repeat;
-    background-position: 1600px 450px;
-    background-attachment: fixed;
-    
-    
+    background-position: 1210px 450px;
+    background-attachment: fixed;   
     
 }
 
@@ -73,8 +71,8 @@ nav .search-box{
     background-color:#FFF;
     color: black ;
     font-size: 15px;
-
     padding: 12px;
+
 
 
 }
@@ -93,9 +91,16 @@ nav .search-box{
     
 }
 
+.hamburger-menu{
+    padding-left: 150px;
+    padding-right: 25px;
+}
+
 a:hover{
     background: #423e9f;
 }
+
+
 
 
 
@@ -126,12 +131,23 @@ a:hover{
     font-style: normal;
     font-weight: 400;
     line-height: 178.7%; /* 51.823px */
+   
+    
 }
 
 .social-icons ul li a img{
 
     flex-direction: column;
     align-self: center;
+    height: 50px;
+    width: 50px;   
+}
+.social-icons ul li a whatsapp{
+    border: 2px solid black;
+}
+
+.social-icons{
+    padding-top: 50px;
 }
 
 
@@ -212,7 +228,7 @@ a:hover{
 .whole{
     display: flex; 
     background-color: #483EFF;
-    height: 300px;
+    height: 500px;
     border-radius: 10px;
 }
 
@@ -233,7 +249,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .button-1{
     background-color: #BCE0F6;
@@ -249,6 +265,9 @@ a:hover{
     padding: 5px;
     text-align: center;
     box-shadow: 1px 1px 1px 1px rgb(68, 7, 167);
+    padding: 20px 20px;
+    width: 280px;
+    height: 80px;
 
 }
 
@@ -263,6 +282,9 @@ a:hover{
     line-height: 178.7%; /* 62.545px */
     letter-spacing: 1.4px;
     text-align: center;
+    padding: 20px 20px;
+    width: 280px;
+    height: 80px;
     
 
 }
@@ -278,6 +300,10 @@ a:hover{
     line-height: 178.7%; /* 62.545px */
     letter-spacing: 1.4px;
     text-align: center;
+    padding: 20px 20px;
+    width: 280px;
+    height: 80px;
+
     
 
 }
@@ -287,7 +313,54 @@ a:hover{
     background-color: #FFF;
     border-radius: 11px;
     padding: 20px 50px 50px 25px;
-    height: 265px;
+    height: 450px;
+    
+}
+
+.details h1{
+    color: #04285A;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.99px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+
+
+
+.details-2{
+   padding-left: 40px;
+   color: #143565;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 1.2px;
+}
+
+
+
+.next-button{
+    background-color: #000;
+    font-family: Roboto;
+    color: white;
+    height: 40px;
+    width: 70px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+
+.inner-box{
+    padding-top: 120px ;
+    padding-left: 800px;
 }
 
 
